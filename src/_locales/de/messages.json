@@ -1,0 +1,11 @@
+{
+  "extensionName": {
+    "message": "WirLernenOnline",
+    "description": "Name of the extension."
+  },
+
+  "extensionDescription": {
+    "message": "Schlage Webseiten zum Hinzufügen zu WirLernenOnline vor.",
+    "description": "Description of the extension."
+  }
+}
