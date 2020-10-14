@@ -1,7 +1,7 @@
 
 /* global chrome */
 var attach = async () => {
-  const EDITOR_URL = 'https://skohub.io/editor/'
+  const EDITOR_URL = 'https://add-content.wirlernenonline.de'
   const SCHEMA = 'https://raw.githubusercontent.com/sroertgen/lrmi-profile/oeh-schema/draft/schemas/oeh-schema/schema.json'
 
   const url = new URL(EDITOR_URL)
@@ -57,7 +57,7 @@ var attach = async () => {
       height: 40px;
       background-size: contain;
       background-image: url(${chrome.runtime.getURL('icons/chevron-right.svg')});
-      background-color: hsl(154, 68%, 47%);
+      background-color: #EF809A;
       z-index: 2147483647;
       border: none;
       border-radius: 0 0 0 14px;
