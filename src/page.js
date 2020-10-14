@@ -2,16 +2,10 @@
 /* global chrome */
 var attach = async () => {
   const EDITOR_URL = 'https://skohub.io/editor/'
-
-  const loadSavedOptions = new Promise((resolve, reject) => {
-    chrome.storage.local.get({ defaultSchema: null }, (options) => {
-      resolve(options)
-    })
-  })
-  const { defaultSchema } = await loadSavedOptions
+  const SCHEMA = 'https://raw.githubusercontent.com/sroertgen/lrmi-profile/oeh-schema/draft/schemas/oeh-schema/schema.json'
 
   const url = new URL(EDITOR_URL)
-  defaultSchema && url.searchParams.set('schema', defaultSchema)
+  url.searchParams.set('schema', SCHEMA)
 
   const getMetaTag = (attribute, value) => {
     return (document.querySelector(`meta[${attribute}="${value}"]`) &&
