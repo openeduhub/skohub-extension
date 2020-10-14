@@ -25,7 +25,7 @@ var attach = async () => {
       author: getMetaTag('name', 'author'),
       image: getMetaTag('property', 'og:image') ||
         getMetaTag('name', 'twitter:image'),
-      locale: getMetaTag('property', 'og:locale'),
+      locale: getMetaTag('property', 'og:locale')
     }
   }
 

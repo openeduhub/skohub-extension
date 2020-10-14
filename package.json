@@ -1,7 +1,8 @@
 {
   "name": "skohub-extension",
-  "version": "0.0.6",
+  "version": "0.0.0",
   "description": "",
+  "private": true,
   "main": "index.js",
   "scripts": {
     "test": "npm run lint:js && npm run lint:extension",

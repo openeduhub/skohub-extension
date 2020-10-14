@@ -1,11 +1,11 @@
 {
   "extensionName": {
-    "message": "SkoHub",
+    "message": "WirLernenOnline",
     "description": "Name of the extension."
   },
 
   "extensionDescription": {
-    "message": "The SkoHub editor will run in the browser and enable structured description of educational resources published anywhere on the web.",
+    "message": "Suggest websites to be added to WirLernenOnline.",
     "description": "Description of the extension."
   }
 }
